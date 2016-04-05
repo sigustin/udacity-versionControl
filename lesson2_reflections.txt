@@ -1,2 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
    It creates a hidden directory called ".git" in which will be stored all the metadata of your repo, such as the branches and the commits.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+   All the files in the staging area are the files that will be put in the next commit.
+   The files in the working directory are the files of the repo as they are now (even without any commit).
+How can you use the staging area to make sure you have one commit per logical change?
+   You can add the file you've been working on to the staging area once you've finished working on it and use the command git diff
+   to verify there's nothing else in the staging area. While you do that, you can still work on all your files that are in the working
+   directory, and you can commit what's in you staging area at any time.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+   Branches are very useful when you need to build 2 different types of code that have the same origin, for example for testing an experimental feature
+   or when you make another version of your program based off of the same code than your first program.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+   Merging 2 branches puts all the changes made on both branches into only one branch. It allows you, for example, to make a 'new feature' branch
+   and to merge this branch with the master branch once the new feature works.
+   The diagrams are represented with arrows so we can see which commits are accessible to which branches.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+   Git can't review your code perfectly and resolve all the conflicts that are in the merging files, resulting in a uncompilable project.
+   But it takes time to review all the conflicts.
