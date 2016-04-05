@@ -9,3 +9,7 @@ Describe the differences between forks, clones, and branches. When would you use
    You would use a clone when you want to work locally on a repo. You would use a branch when you work locally on a repo that's yours.
 What is the benefit of having a copy of the last known state of the remote stored locally?
    This way, you can see where was the last time your branch was up-to-date with the online branch.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+   I would send files to collaborators using services such as Facebook, Google drive or Dropbox, and I would have to put an ID for each version
+   of each files and a backup of every file somewhere on my local computer. A solution could also be to use an online service that allow multiple
+   people to edit a file at the same time (but I would have to keep backup version by copy-pasting the file from time to time).
